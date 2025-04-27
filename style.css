@@ -126,6 +126,7 @@ section {
   text-decoration: none;
   margin-top: 100px;
   padding: 4px;
+  font-size: xx-small;
 }
 
 @keyframes text-move {
@@ -715,8 +716,36 @@ section {
     margin-top: 40px;
   }
 
+  .contact .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact .row {
+    flex-direction: column;
+    margin-left: 50px;
+  }
+
+  .card,
   .contact-form {
-    padding: 35px 40px;
+    width: 90%;
+  }
+
+  .contact-form {
+    padding: 25px 20px;
+  }
+
+  .download {
+    background-color: #a7aec1;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 100px;
+
+    padding: 1px;
+    font-size: xx-small;
+  }
+  .media-icons .download {
+    width: 10px;
   }
 }
 
